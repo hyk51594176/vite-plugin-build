@@ -1,16 +1,12 @@
 {
   "name": "@hanyk/vite-plugin-build",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vite build插件",
   "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": "t"
-  },
   "author": "yukai",
   "main": "./lib/cjs",
   "module": "./lib/esm",
-  "types": "./lib/index.d.ts",
+  "types": "./lib/esm",
   "files": [
     "lib"
   ],
@@ -22,7 +18,8 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "father": "^4.4.0"
+    "father": "^4.4.0",
+    "fs-extra": "^11.3.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
@@ -38,6 +35,10 @@
     "vite-plugin-style-import": "^2.0.0"
   },
   "publishConfig": {
-    "registry": ""
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyk51594176/vite-plugin-build"
   }
 }
