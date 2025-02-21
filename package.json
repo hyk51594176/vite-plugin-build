@@ -1,0 +1,43 @@
+{
+  "name": "@hanyk/vite-plugin-build",
+  "version": "0.0.1",
+  "description": "vite build插件",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "t"
+  },
+  "author": "yukai",
+  "main": "./lib/cjs",
+  "module": "./lib/esm",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "prepublishOnly": "npm run build",
+    "serve": "vite preview",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "father": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@types/node": "^17.0.18",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "less": "^4.1.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "typescript": "5.2.2",
+    "vite": "^6.1.1",
+    "vite-plugin-style-import": "^2.0.0"
+  },
+  "publishConfig": {
+    "registry": ""
+  }
+}
