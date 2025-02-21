@@ -1,8 +1,7 @@
 ## @dg/vite-plugin-build
 
-- 维护人： yukai
 
-> 使用 father build 组件
+> 使用 father build 
 
 ### 安装
 
