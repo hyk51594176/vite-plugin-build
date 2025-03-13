@@ -1,4 +1,4 @@
-## @dg/vite-plugin-build
+## @hanyk/vite-plugin-build
 
 
 > 使用 father build 
@@ -6,9 +6,9 @@
 ### 安装
 
 ```sh
-npm i @dg/vite-plugin-build
+npm i @hanyk/vite-plugin-build
 or
-yarn add @dg/vite-plugin-build
+yarn add @hanyk/vite-plugin-build
 ```
 
 ### API
@@ -16,7 +16,7 @@ yarn add @dg/vite-plugin-build
 ```ts | pure
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
-import build from '@dg/vite-plugin-build'
+import build from '@hanyk/vite-plugin-build'
 
 export default defineConfig({
   plugins: [
